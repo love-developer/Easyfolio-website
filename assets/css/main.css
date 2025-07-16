@@ -175,24 +175,15 @@ h6 {
 }
 
 .header .header-social-links {
-  padding-right: 15px;
+  padding: 7px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
 }
 
-.header .header-social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding-left: 6px;
-  display: inline-block;
-  transition: 0.3s;
-  font-size: 16px;
-}
-
-.header .header-social-links a:hover {
-  color: var(--accent-color);
-}
-
-.header .header-social-links a i {
-  line-height: 0px;
-}
 
 @media (max-width: 1200px) {
   .header {
@@ -963,6 +954,7 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+
 .skills .skill-box {
   background-color: var(--surface-color);
   padding: 2rem;
@@ -1659,6 +1651,12 @@ section,
 
 .contact .contact-form .btn-submit:active {
   transform: translateY(0);
+}
+.color-black{
+  color: var(--default-color);
+}
+.text-bold{
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
